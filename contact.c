@@ -168,3 +168,9 @@ void SortContact(const struct Contact* ps)
 {
 
 }
+
+void DestroyContact(struct Contact* ps)
+{
+	free(ps->data);
+	ps->data = NULL;
+}

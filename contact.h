@@ -54,3 +54,5 @@ void SearchContact(const struct Contact* ps);
 void ModifyContact(const struct Contact* ps);
 //排序通讯录内容
 void SortContact(const struct Contact* ps);
+//销毁通讯录
+void DestroyContact(struct Contact* ps);
